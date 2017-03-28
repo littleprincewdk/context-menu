@@ -1,0 +1,59 @@
+.context-menu{
+    display: none;
+    box-sizing: border-box;
+    position:absolute;
+    width:250px;
+    border:solid #a0a0a0 1px;
+    box-shadow:5px 5px 2px -3px #a0a0a0;
+    background-color: #ffffff;
+    font-family: '微软雅黑';
+    font-size:12px;
+    cursor: default;
+    z-index: 9999;
+}
+.context-menu .context-menu-list{
+    margin:2px 0;
+    padding:0;
+    list-style: none;
+}
+.context-menu .context-menu-list .context-menu-list-item{
+    position:relative;
+    padding:5px 20px;
+}
+.context-menu.context-menu-icon .context-menu-list .context-menu-list-item{
+    padding:5px 20px 5px 26px;
+    line-height: 16px;
+}
+.context-menu .context-menu-list .context-menu-list-item:hover{
+    background-color: #345cff;
+    color:#ffffff;
+}
+.context-menu .context-menu-list .context-menu-list-item:after{
+    display:table;
+    content: "";
+    clear:both;
+}
+.context-menu .context-menu-list .context-menu-list-hr{
+    display:block;
+    margin:5px 0;
+    height:1px;
+    background-color: #e6e6e6;
+}
+.context-menu .context-menu-list .context-menu-list-item .context-menu-list-item-icon{
+    position:absolute;
+    left:5px;
+    top:5px;
+    width:16px;
+    height:16px;
+    background-size: 100%;
+}
+.context-menu .context-menu-list .context-menu-list-item .context-menu-list-item-text{
+    float:left;
+}
+.context-menu .context-menu-list .context-menu-list-item .context-menu-list-item-shortcut{
+    float:right;
+    color:#a0a0a0;
+}
+.context-menu .context-menu-list .context-menu-list-item:hover .context-menu-list-item-shortcut{
+    color:#ffffff;
+}
