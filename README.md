@@ -1,6 +1,7 @@
 自己写的插件ContextMenu
 -
 ###使用方法
+
     /*
      *text:菜单文本
      *shortcut:快捷键文本
