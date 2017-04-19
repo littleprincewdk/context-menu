@@ -1,5 +1,6 @@
 自己写的插件ContextMenu
 -
+[demo](http://princekin.tjxuechuang.com/projects/xcontextmenu/index.html)
 ###使用方法
 
     /*
